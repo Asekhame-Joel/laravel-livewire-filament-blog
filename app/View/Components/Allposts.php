@@ -1,12 +1,12 @@
 <?php
 
-namespace App\View\Components\Post;
+namespace App\View\Components;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class post-card extends Component
+class Allposts extends Component
 {
     /**
      * Create a new component instance.
@@ -21,6 +21,6 @@ class post-card extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.post.post-card');
+        return view('components.allposts');
     }
 }
